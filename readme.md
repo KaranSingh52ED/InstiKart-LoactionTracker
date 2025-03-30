@@ -1,4 +1,4 @@
-# Location Tracker Project
+# InstiBus Location Tracker Project
 
 This project consists of a real-time location tracking application with a **React.js** and **tailwind CSS** frontend and a **Node.js/Express** backend using **Socket.io** for live updates.
 

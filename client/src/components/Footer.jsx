@@ -16,7 +16,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2">
               <FiMapPin className="h-7 w-7 text-blue-400" />
-              <span className="text-2xl font-bold">LocationTracker</span>
+              <span className="text-2xl font-bold">InstiBus</span>
             </div>
             <p className="text-gray-400 text-sm mt-3 leading-relaxed">
               A real-time location tracking app built with React, Tailwind CSS,
@@ -80,10 +80,10 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <FiMail className="h-5 w-5 text-blue-400" />
                 <a
-                  href="mailto:info@locationtracker.com"
+                  href="mailto:info@instibus.com"
                   className="hover:text-blue-400 transition duration-300"
                 >
-                  info@locationtracker.com
+                  info@instibus.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
@@ -108,8 +108,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-12 border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} InstiKart LocationTracker. All
-            rights reserved.
+            &copy; {new Date().getFullYear()} InstiBus. All rights reserved.
           </p>
           <button
             onClick={scrollToTop}

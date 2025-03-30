@@ -35,7 +35,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
           <MapPin className="h-8 w-8 text-blue-400 animate-pulse" />
           <span className="text-2xl font-extrabold tracking-wide text-white">
-            LocationTracker
+            InstiBus
           </span>
         </div>
 
